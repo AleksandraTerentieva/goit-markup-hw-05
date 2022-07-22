@@ -490,6 +490,7 @@ img {
 .work-cards-wrapper {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  cursor: pointer;
 }
 
 .work-cards-title {
