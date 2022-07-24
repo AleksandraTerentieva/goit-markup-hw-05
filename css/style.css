@@ -67,12 +67,13 @@ img {
 .card-set-item {
   position: relative;
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-  transition: box-shadow var(--animation) ;
+  transition: box-shadow var(--animation);
 }
 
 .card-set-item:focus,
 .card-set-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* base style */
@@ -100,7 +101,7 @@ img {
   letter-spacing: 0.03em;
   background-color: var(--light-bg-cl);
   cursor: pointer;
-  transition: background-color var(--animation), color var(--animation) ;
+  transition: background-color var(--animation), color var(--animation);
 }
 
 .hero-btn {
@@ -120,8 +121,6 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
-
 }
 
 .btn {
@@ -193,14 +192,14 @@ img {
 }
 
 .header-link-current::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 45px;
   left: 0;
   display: block;
   width: 100%;
   height: 4px;
-  
+
   background: var(--accent-txt-cl);
   border-radius: 2px;
 }
@@ -310,7 +309,7 @@ img {
   color: var(--links-txt-cl);
   background-color: var(--btn-txt-cl);
   border-radius: 50%;
-  transition: background-color var(--animation), color (var(--animation));
+  transition: background-color var(--animation), color var(--animation);
 }
 
 .socials-link:hover,
@@ -513,7 +512,8 @@ img {
   background-color: var(--btn-txt-cl);
   border: 1px solid var(--links-txt-cl);
   border-radius: 4px;
-  transition: color var(--animation), background-color var(--animation), border-color var(--animation);
+  transition: color var(--animation), background-color var(--animation),
+    border-color var(--animation);
 }
 
 .client-link:hover,
@@ -605,7 +605,8 @@ img {
 
 .work-card:hover,
 .work-card:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* footer section */
 
@@ -746,7 +747,6 @@ img {
   transition: fill var(--animation);
 }
 
-
 /* Modal window */
 
 .backdrop {
@@ -757,8 +757,7 @@ img {
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   z-index: 100;
-/*   transition: opacity 600ms ease-out, visibility 600ms ease-out; */
-  
+  /*   transition: opacity 600ms ease-out, visibility 600ms ease-out; */
 }
 
 .backdrop.is-hidden {
@@ -775,8 +774,9 @@ img {
   width: 528px;
   height: 581px;
   background: var(--btn-txt-cl);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px; 
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   opacity: 1;
   transition: transform 400ms ease-in-out 200ms, opacity 400ms ease-in-out 200ms;
 }
@@ -801,4 +801,3 @@ img {
   background-color: transparent;
   cursor: pointer;
 }
-
